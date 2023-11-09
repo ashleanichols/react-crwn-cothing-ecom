@@ -1,0 +1,472 @@
+repo_name: ashleanichols/react-crwn-cothing-ecom
+report_id: 79e5f7f86895ace13776c707155a7ca0
+repo_type: Public
+timestamp: '2023-11-09T16:49:45+00:00'
+requested_by: Th3Wall
+provider: github
+branch: main
+detected_tools_count: 34
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-11 00:35:37.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: Redux Persist
+  description: A library to persist and rehydrate a redux store
+  website_url: https://github.com/rt2zz/redux-persist
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6740/no-img-open-source.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 22:22:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.19.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-01-12 01:09:03.000000000 Z
+- name: Google Analytics
+  description: Enterprise-class web analytics.
+  website_url: http://www.google.com/analytics
+  open_source: false
+  hosted_saas: false
+  category: Analytics
+  sub_category: General Analytics
+  image_url: https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-11 00:27:42.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 22:22:06.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-11 00:35:37.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: enzyme-to-json
+  description: Convert enzyme wrapper to a format compatible with Jest snapshot
+  package_url: https://www.npmjs.com/enzyme-to-json
+  version: 3.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16252/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 22:22:06.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: client/package-lock.json
+  detection_source: package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-11 00:35:37.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-16 02:22:14.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
+- name: redux-saga
+  description: Saga middleware for Redux to handle Side Effects
+  package_url: https://www.npmjs.com/redux-saga
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16472/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Th3Wall
+  last_updated_on: 2021-02-01 23:55:47.000000000 Z
