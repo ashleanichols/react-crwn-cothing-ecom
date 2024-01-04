@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashleanichols/react-crwn-cothing-ecom is built on the following main stack:
+
 - [Google Analytics](http://www.google.com/analytics) – General Analytics
 - [Stripe](https://stripe.com) – Payment Services
 - [Firebase](https://firebase.google.com/) – Realtime Backend / API
@@ -20,11 +21,13 @@ ashleanichols/react-crwn-cothing-ecom is built on the following main stack:
 - [reselect](https://github.com/reactjs/reselect) – State Management Library
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashleanichols/react-crwn-cothing-ecom is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg' alt='Google Analytics'/> [Google Analytics](http://www.google.com/analytics) – General Analytics
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
 - <img width='25' height='25' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'/> [Firebase](https://firebase.google.com/) – Realtime Backend / API
@@ -43,14 +46,15 @@ ashleanichols/react-crwn-cothing-ecom is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/7757/13142323.png' alt='reselect'/> [reselect](https://github.com/reactjs/reselect) – State Management Library
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashleanichols/react-crwn-cothing-ecom](https://github.com/ashleanichols/react-crwn-cothing-ecom)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|34<br/>Tools used|11/09/23 <br/>Report generated|
+|34<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -262,4 +266,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
